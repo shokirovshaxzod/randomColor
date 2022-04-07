@@ -28,6 +28,9 @@ nav {
   font-size: 20px;
   color: rgba(0, 183, 255, 0.689);
 }
+.nav-center a {
+  text-decoration: none;
+}
 .nav-link {
   list-style: none;
   display: flex;

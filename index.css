@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  background-color: #f8f8f8;
+  display: flex;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.nav-center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-center h4 {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(0, 183, 255, 0.689);
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-link li {
+  margin: 5px;
+}
+.nav-link li a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+.nav-link li a:hover {
+  font-size: 15px;
+  color: #f00;
+}
+main {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  height: 100px;
+}
+main .container h2 {
+  color: #fff;
+  padding: 16px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 21px;
+  background-color: #000000;
+  transition: 0.8s;
+}
+main .container h2:hover {
+  margin: 6px;
+  padding: 14px 20px;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+main .container .color {
+  color: rgba(0, 183, 255, 0.913);
+}
+.btn-hero {
+  margin: 5px;
+  width: 80px;
+  padding: 5px 10px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 12px;
+  transition: all 0.5s;
+}
+.btn-hero:hover {
+  width: 75px;
+  background-color: #000000;
+  color: #fff;
+}
